@@ -1,0 +1,27 @@
+{
+  "name": "peopledex-backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "local": "ts-node src/server.ts",
+    "dev": "npm run build && npm run start",
+    "build": "tsc",
+    "start": "node dist/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/morgan": "^1.9.9",
+    "@types/node": "^22.13.8",
+    "express": "^4.21.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.2"
+  },
+  "dependencies": {
+    "morgan": "^1.10.0",
+    "nodemon": "^3.1.9"
+  }
+}
